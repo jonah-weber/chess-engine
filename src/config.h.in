@@ -1,0 +1,9 @@
+#pragma once
+
+#include <string_view>
+
+constexpr std::string_view LOG_FILE_PATH = @LOG_FILE_PATH_STR@;
+constexpr std::string_view START_DEBUG_MONITOR_CMD_STR = @START_DEBUG_MONITOR_CMD_STR@;
+constexpr std::string_view KILL_DEBUG_MONITOR_CMD_STR = @KILL_DEBUG_MONITOR_CMD_STR@;
+constexpr std::string_view ENGINE_NAME = @ENGINE_NAME_STR@;
+constexpr std::string_view ENGINE_AUTHOR = @ENGINE_AUTHOR_STR@;
